@@ -18,6 +18,7 @@ public class calcTest {
         dscap.setCapability(MobileCapabilityType.DEVICE_NAME, "testEmulator");
         dscap.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         dscap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
+//        dscap.setCapability("systemPort" ,"8201");
 //        dscap.setCapability("devicename","someRealMobilename");
 //        dscap.setCapability("udid","d2475e99");
 //        dscap.setCapability("platformName","Android");
